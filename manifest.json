@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Verba",
+  "version": "1.0",
+  "description": "Wordle Helper",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.nytimes.com/games/wordle/index.html"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["answerlist.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
