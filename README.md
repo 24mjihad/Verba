@@ -1,6 +1,7 @@
 # Verba
 
 Wordle helper extension.
+![](9d757f.gif)
 
 ## Installation
 
